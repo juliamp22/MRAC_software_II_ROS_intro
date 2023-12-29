@@ -10,6 +10,7 @@ Slides can be found in the softwareII gdrive folder.
 - The ROS computational graph
 - The ROS filesystem
 - ROS tools
+- Git and pull requests
 
 &nbsp;
 
@@ -88,7 +89,17 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
 
 &nbsp;
 
-## Assignment
+## Assignment 1
+
+1. Create a GitHub profile if you have not. 
+2. Create a repository to play with some text files, and reproduce some working flow, for instance the one studied in the classroom named **IAAC_SoftwareII**. 
+3. Document what are you doing in the wiki or Readme.md, telling what are you learning. 
+4. Find out other students of the master at GitHub and Follow them. 
+5. Let some of your mates to have some development role at your repo. Let them create some branch to develop new things, and finally accept a pull request.
+6. Fork some student repository, do some modifications and send a pull request. 
+7. Provide the link of your repository.
+
+## Assignment 2
 
 In order to edit code/ files inside the container you will need to attach vscode to the container.
 
@@ -108,6 +119,10 @@ save your changes with git using the following commands
 - `git add .`
 - `git commit -m "your message"`
 - `git push`
+
+## Assignment 3
+
+Add the overall tutorial packages in the repository created in Assignment 1. 
 
 ## References
 
