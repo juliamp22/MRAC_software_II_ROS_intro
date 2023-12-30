@@ -46,6 +46,8 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
   ```bash
   mkdir -p ~/dev_ws/src
   cd ~/dev_ws/
+  source /opt/ros/noetic/setup.bash
+  export
   ```
 
   - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage)
