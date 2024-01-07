@@ -85,6 +85,6 @@ Overview of the environment:
 
 
 
-## Assignment - Due date January 15th, 11:59 pm (last git commit)
+## Assignment - Due date January 14th, 11:59 pm (last git commit)
 
 - Upload a screenshot with the vscode running, terminator and rviz opened after launching the simulation in [MRAC_ur_commander](https://github.com/roboticswithjulia/MRAC_ur_commander?tab=readme-ov-file#launch-the-simulation).
