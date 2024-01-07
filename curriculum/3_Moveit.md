@@ -82,3 +82,9 @@ Overview of the environment:
 ### UR
 
 - [ur IO service](https://github.com/ros-industrial/ur_msgs/blob/melodic-devel/srv/SetIO.srv)
+
+
+
+## Assignment - Due date January 15th, 11:59 pm (last git commit)
+
+- Upload a screenshot with the vscode running, terminator and rviz opened after launching the simulation in [MRAC_ur_commander](https://github.com/roboticswithjulia/MRAC_ur_commander?tab=readme-ov-file#launch-the-simulation).
