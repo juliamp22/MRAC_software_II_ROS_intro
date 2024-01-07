@@ -7,6 +7,6 @@ The course consists of the following parts:
 - Installation
 - Introduction to ROS
 - Introduction to rospy
-- ROS and Rhino3d
 - Introduction to Moveit
-- Introduction to Sensors
+- Introduction to
+- Introduction to SLAM
