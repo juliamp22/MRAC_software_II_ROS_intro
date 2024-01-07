@@ -1,7 +1,6 @@
 # MRAC software II: Introduction to ROS
 
 This repository contains the structure for MRAC software II course. Theory slides can be found in the course google drive folder.
-Dockerized environments can be found in the following repos
 
 The course consists of the following parts:
 
