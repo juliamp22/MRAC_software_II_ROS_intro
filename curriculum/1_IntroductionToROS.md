@@ -29,21 +29,25 @@ While following this tutorial you do not need to create a new workspace as the d
 
 Follow the tutorials in the links below. Complete the chapters listed under the heading.
 
+Make sure that *ros_tutorials repo* has been previously created in github.
+
 - [Understanding ROS nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
   - 5 Roscore
   - 6 Using rosnode
   - 7 Using rosrun
   - 8 Review
+
 - [Understanding ROS topics](http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
   - 1 Setup
   - 2 ROS topics
   - 4 Rostopic continued
   - 5 Using rqt_plot
+
 - [Understanding ROS Services and Parameters](http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams)
   - 1 ROS services
   - 2 Using rosservice
   - 3 Using rosparam
-  -
+
 - [Creating a catkin package](http://wiki.ros.org/catkin/Tutorials/CreatingPackage) **Warning! catkin_ws should be changed to dev_ws**
   - 3 creating a catkin package
   - 4 building a catkin workspace
@@ -89,13 +93,13 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
 
 1. Create a GitHub profile [Github](https://github.com/).
 2. Create a SSH key in your laptop [create-ssh-key](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04) and add it in the github settings.
-3. Create a repository named **SWII_intro_ROS** - in order to play with some text files, and reproduce some working flow, for instance the one studied in the classroom.
+3. Create a repository named **ros_tutorials** - in order to play with some text files, and reproduce some working flow, for instance the one studied in the classroom.
 4. Add a Description: This is the repository which is going to be used by the student during the Subject Software II, Introduction to ROS.
 5. Make it Public
 6. Check the box _Add a README file_.
 7. Add Python .gitignore
 8. Choose a MIT License.
-9. Clone your repository: `cd ~/dev_ws/src/SWII_intro_ROS` and  _git clone <your repository>_ inside .
+9. Clone your repository: `cd ~/dev_ws/src` and  `_git clone <your repository>_` inside
 10. Pull your repository `git pull`.
 11. Configure the user and the mail as the ones previously configured when created the github profile,
 12. Open vscode: `code .` document what are you doing in the wiki or Readme.md, telling what are you learning.
@@ -108,28 +112,32 @@ Follow the tutorials in the links below. Complete the chapters listed under the 
 15. Provide your name and link of repository [here](https://docs.google.com/spreadsheets/d/1ZyUKA4EDKNS-r1ppWnJ4YpjnhbGrnDkWbXj30VyRfmM/edit?usp=sharing).
 
 ## Assignment 2 - Due date Friday 12th, 11:59 pm (last git commit)
-
-1. Create a git repository named ros_tutorials:
-2. Create a new repository at your GitHub called ros_tutorials.
-3. Follow the tutorials at [ROS tutorials](http://wiki.ros.org/ROS/Tutorials):
-  1- Installing and Configuring Your ROS Environment
-  2 - Navigating the ROS Filesystem
-  3 - Creating a ROS package
-  4 - Building a ROS package
-  5 - Understanding ROS Nodes
-  6 - Understanding ROS Topics
-  7 - Understanding ROS Services and Parameters
-  8 - Using rqt_console and roslaunch
-  9 - Using rosed to edit files in ROS
-  10 - Creating a ROS msg and srv
-  12 - Writing a simple Publisher and Subscriber (Python)
-  13 - Examining Simple Publisher and Subscriber
-  15 - Writing a Simple  Service and  Client (Python).
-4. Add all files created to github: git add *  or git add <file>
-5. `git status`. If all packages are green, proceed to the next step. If not, add again the red ones.
-6. git commit -m <add some info regarding the packages that you are adding>
-7. git push
-8. Go to your repository via website, and check that the remote branch is the same as the one that you have in your computer.
+0. Things to take into account before start the assignment:
+  - Open a terminal
+  - _note_: **catkin_ws** should be renamed to **dev_ws** and **distro** should be renamed to **noetic**.
+  - source to ros `source /opt/ros/noetic/setup.bash`
+  - navigate to the ros tutorials folder `cd ~/dev_ws/src/ros_tutorials`
+1. Follow the tutorials at [ROS tutorials](http://wiki.ros.org/ROS/Tutorials):
+  - Tutorial 2: Navigating the ROS Filesystem
+  - Tutorial 3: Creating a ROS package
+  - Tutorial 4: Building a ROS package
+  - Tutorial 5: Understanding ROS Nodes
+  - Tutorial 6: Understanding ROS Topics
+  - Tutorial 7: Understanding ROS Services and Parameters
+  - Tutorial 8: Using rqt_console and roslaunch
+  - Tutorial 9: Using rosed to edit files in ROS
+  - Tutorial 10: Creating a ROS msg and srv
+  - Tutorial 12: Writing a simple Publisher and Subscriber (Python)
+  - Tutorial 12: Examining Simple Publisher and Subscriber
+  - Tutorial 13: Writing a Simple  Service and  Client (Python).
+  - Tutorial 14: Examining Simple Service and Client.
+  - Tutorial 15: Recording and playing back data.
+  - Tutorial 16: Recording messages from a bag file
+2. Add all files created to **ros_tutorial** github repository: git add *  or git add <file>
+3. `git status`. If all packages are green, proceed to the next step. If not, add again the red ones.
+4. git commit -m <add some info regarding the packages that you are adding>
+5. git push
+6. Go to your repository via website, and check that the remote branch is the same as the one that you have in your computer.
 
 ## References
 
