@@ -8,5 +8,5 @@ The course consists of the following parts:
 - Introduction to ROS
 - Introduction to rospy
 - Introduction to Moveit
-- Introduction to
+- Introduction to Sensors
 - Introduction to SLAM
