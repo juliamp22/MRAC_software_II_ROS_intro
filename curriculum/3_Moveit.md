@@ -18,12 +18,10 @@ Slides can be found in the software II gdrive folder.
 
 ### Environment setup
 
-[moveit1_ur](https://github.com/roboticswithjulia/MRAC_ur_commander)
+[MRAC_ur_commander](https://github.com/roboticswithjulia/MRAC_ur_commander)
 
 Fork and clone the following repo: MRAC_ur_commander
 See repo README for instructions on building, running and using the container.
-
-If you are experienced a version of the repository with git submodules is available here: [moveit1_ur](https://github.com/vinceHuyghe/moveit1_ur)
 
 ### Overview of environment
 
