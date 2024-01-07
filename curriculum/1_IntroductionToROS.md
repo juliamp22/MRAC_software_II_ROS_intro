@@ -99,7 +99,7 @@ Make sure that *ros_tutorials repo* has been previously created in github.
 6. Check the box _Add a README file_.
 7. Add Python .gitignore
 8. Choose a MIT License.
-9. Clone your repository: `cd ~/dev_ws/src` and  `_git clone <your repository>_` inside
+9. Clone your repository: `cd ~/dev_ws/src` and  `git clone <your repository>` inside
 10. Pull your repository `git pull`.
 11. Configure the user and the mail as the ones previously configured when created the github profile,
 12. Open vscode: `code .` document what are you doing in the wiki or Readme.md, telling what are you learning.
