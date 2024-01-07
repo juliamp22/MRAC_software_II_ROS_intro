@@ -89,7 +89,7 @@ Make sure that *ros_tutorials repo* has been previously created in github.
 
 &nbsp;
 
-## Assignment 1 - Due date Friday 12th, 11:59 pm (last git commit)
+## Assignment 1 - Due date January 13th, 11:59 pm (last git commit)
 
 1. Create a GitHub profile [Github](https://github.com/).
 2. Create a SSH key in your laptop [create-ssh-key](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04) and add it in the github settings.
@@ -111,7 +111,7 @@ Make sure that *ros_tutorials repo* has been previously created in github.
 15. Find out other students of the master at GitHub and follow them.
 15. Provide your name and link of repository [here](https://docs.google.com/spreadsheets/d/1ZyUKA4EDKNS-r1ppWnJ4YpjnhbGrnDkWbXj30VyRfmM/edit?usp=sharing).
 
-## Assignment 2 - Due date Friday 12th, 11:59 pm (last git commit)
+## Assignment 2 - Due date January 13th 2024, 11:59 pm (last git commit)
 0. Things to take into account before start the assignment:
   - Open a terminal
   - _note_: **catkin_ws** should be renamed to **dev_ws** and **distro** should be renamed to **noetic**.
@@ -143,3 +143,4 @@ Make sure that *ros_tutorials repo* has been previously created in github.
 
 - [ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
 - [ROS video tutorials - ROS Noetic for beginners](https://www.youtube.com/playlist?list=PLLSegLrePWgIbIrA4iehUQ-impvIXdd9Q)
+- [learn python in ~75 min](https://youtu.be/VchuKL44s6E?feature=shared)

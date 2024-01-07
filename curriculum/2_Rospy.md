@@ -44,7 +44,7 @@ simple service and client
 - [using parameters](http://wiki.ros.org/rospy_tutorials/Tutorials/Parameters)
 - [logging](http://wiki.ros.org/rospy_tutorials/Tutorials/Logging)
 
-## Assignment
+## Assignment - Due date January 14th, 11:59 pm (last git commit)
 
 - Navigate to the src folder of your workspace
 
