@@ -118,6 +118,7 @@ Make sure that *ros_tutorials repo* has been previously created in github.
   - source to ros `source /opt/ros/noetic/setup.bash`
   - navigate to the ros tutorials folder `cd ~/dev_ws/src/ros_tutorials`
 1. Follow the tutorials at [ROS tutorials](http://wiki.ros.org/ROS/Tutorials):
+  - Tutorial 1
   - Tutorial 2: Navigating the ROS Filesystem
   - Tutorial 3: Creating a ROS package
   - Tutorial 4: Building a ROS package
