@@ -49,7 +49,7 @@ simple service and client
 - Navigate to the src folder of your workspace
 
   ```shell
-  cd dev_ws/src
+  cd catkin_ws/src
   ```
 
 - Create a ROS pkg
