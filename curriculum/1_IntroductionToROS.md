@@ -129,9 +129,7 @@ Make sure that *ros_tutorials repo* has been previously created in github.
   - Tutorial 9: Using rosed to edit files in ROS
   - Tutorial 10: Creating a ROS msg and srv
   - Tutorial 12: Writing a simple Publisher and Subscriber (Python)
-  - Tutorial 12: Examining Simple Publisher and Subscriber
   - Tutorial 13: Writing a Simple  Service and  Client (Python).
-  - Tutorial 14: Examining Simple Service and Client.
   - Tutorial 15: Recording and playing back data.
   - Tutorial 16: Recording messages from a bag file
 2. Add all files created to **ros_tutorial** github repository: git add *  or git add <file>
