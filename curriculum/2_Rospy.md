@@ -9,7 +9,7 @@ prerequisite: create a catkin workspace and ros pkg
     navigate to the src folder of your workspace
 
     ```shell
-    cd dev_ws/src
+    cd ~/catkin_ws/src
     ```
 
     create a ros pkg
