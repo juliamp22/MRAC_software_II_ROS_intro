@@ -68,7 +68,7 @@ simple service and client
 
 - add you newly created scripts to CMakeLists.txt
 
-- compile your workspace `catkin build`
+- compile your workspace `catkin_make`
 
 - test by rosrunning your scripts
 
