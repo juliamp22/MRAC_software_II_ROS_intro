@@ -75,6 +75,7 @@ simple service and client
 ### commit and push your code
 
 ```shell
+cd ~/catkin_ws/src
 git add .
 git commit -m "turtle pose subscriber and twist publisher"
 git push
