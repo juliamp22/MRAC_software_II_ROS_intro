@@ -85,16 +85,16 @@ Overview of the environment:
 
 
 
-## Assignment 1 - Due date January 19th, 11:59 pm (last git commit)
+## Assignment 1 - Due date January 20th, 11:59 pm (last git commit)
 
 - Upload a screenshot with the vscode running, terminator and rviz opened after launching the simulation in [MRAC_ur_commander](https://github.com/roboticswithjulia/MRAC_ur_commander?tab=readme-ov-file#launch-the-simulation).
 
 
-## Assignment 2 - Due date January 19th, 11:59 pm (last git commit)
+## Assignment 2 - Due date January 20th, 11:59 pm (last git commit)
 
 - Upload a video of rviz with the overall simulation running, making the overall steps of file [commander_examples](https://github.com/roboticswithjulia/MRAC_ur_commander/blob/main/commander/notebooks/commander_examples.ipynb)
 
-## Assignment 3 - Due date January 19th, 11:59 pm (last git commit)
+## Assignment 3 - Due date January 20th, 11:59 pm (last git commit)
 
 1. Copy the commander_examples.ipynb inside the notebooks and rename it to commander_examples_customized.ipynb inside [commander_examples](https://github.com/roboticswithjulia/MRAC_ur_commander/blob/main/commander/notebooks).
 2.  Change the tcp from *rgb_camera_tcp* to *tool_0*, if you execute again the file, what happens? Why the robot behaves differently?
