@@ -121,7 +121,7 @@ Before closing the terminal you ran the docker image from remember to commit and
 ## Assignment 2 (Due date 19th January 23:59)
 
 Create a node (python executable) inside the **commander_move_base** package and implement the following:
- - Create a new node named **turtlebot_mover** which makes the robot move along three diferent positions. Make sure that the robot reaches the predefined positions getting the feedback from the robot.
+ - Create a new node named **turtlebot_mover** which makes the robot move along three diferent positions with reference to the map. Make sure that the robot reaches the predefined positions getting the feedback from the robot.
  - Create a new node named **turtlebot_approx** which make the robot move with the velocity topic  '/mobile_base/commands/velocity' getting info from the lidar (/scan) being able to getting closer to a specific object and make the robot stop when the it is about 0.30m.
  - Add the overall nodes to the repository.
 Create a new folder inisde the repository named *video*, add the video from the previous assignment.
