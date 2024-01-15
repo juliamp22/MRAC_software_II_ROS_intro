@@ -3,15 +3,15 @@
 1. create a new workspace:
 `mkdir -p ~/dev_ws/src`
 `cd ~/dev_ws/src`
-2. Download the turtlebot_sim package [turtlebot_sim:
-`git clone --recursive git@github.com:roboticswithjulia/turtlebot_sim.git`
+2. Fork the repository from [here](git@github.com:roboticswithjulia/turtlebot_sim.git)
+3. Download the turtlebot_sim package [turtlebot_sim] cloned from your recently forked repository.
 `rosdep install --from-paths src --ignore-src -r -y`
-3. `cd ~/dev_ws/src`
-4. `catkin clean`
-5. `catkin build`
-6. `source devel/setup.bash`
-7. `cd ~/dev_ws/src/turtlebot_sim`
-8. `code .` open vscode
+4. `cd ~/dev_ws/src`
+5. `catkin clean`
+6. `catkin build`
+7. `source devel/setup.bash`
+8. `cd ~/dev_ws/src/turtlebot_sim`
+9. `code .` open vscode
 
 
 ### Building the image
@@ -120,7 +120,10 @@ Before closing the terminal you ran the docker image from remember to commit and
 
 ## Assignment 2 (Due date 19th January 23:59)
 
-1. Create a node (python executable) inside the commander_move_base which makes the following:
- - Make the robot move along three diferent positions making sure that the robot reaches the predefined positions getting the feedback from the robot.
- - Make the robot move with the velocity topic  '/mobile_base/commands/velocity' getting info from the lidar (/scan). And make the robot stop when the it is about 0.3m.
+Create a node (python executable) inside the **commander_move_base** package and implement the following:
+ - Create a new node named **turtlebot_mover** which makes the robot move along three diferent positions. Make sure that the robot reaches the predefined positions getting the feedback from the robot.
+ - Create a new node named **turtlebot_approx** which make the robot move with the velocity topic  '/mobile_base/commands/velocity' getting info from the lidar (/scan) being able to getting closer to a specific object and make the robot stop when the it is about 0.30m.
+ - Add the overall nodes to the repository.
+Create a new folder inisde the repository named *video*, add the video from the previous assignment.
+
 
