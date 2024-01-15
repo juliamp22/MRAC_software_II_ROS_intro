@@ -3,7 +3,7 @@
 1. create a new workspace:
 `mkdir -p ~/dev_ws/src`
 `cd ~/dev_ws/src`
-2. Fork the repository from [here](git@github.com:roboticswithjulia/turtlebot_sim.git)
+2. Fork the repository from [here](git@github.com:roboticswithjulia/turtlebot_sim.git) 
 3. Download the turtlebot_sim package [turtlebot_sim] cloned from your recently forked repository.
 `rosdep install --from-paths src --ignore-src -r -y`
 4. `cd ~/dev_ws/src`
