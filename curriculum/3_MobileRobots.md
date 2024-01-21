@@ -56,7 +56,7 @@ Select the running container, right click and select attach vscode
 
 #### Attach vs code to container
 
-In vs code go to the Docker tab in the side bar. Right click on the container named moveit1_ur:latest. Select attach vscode.
+In vs code go to the Docker tab in the side bar. Right click on the container named turtlebot_sim:latest. Select attach vscode.
 
 When attaching to the container for first time:
 In vs code open the command palette (Ctrl-Shift-P). Select `Remote-containers: Open attached container configuration file` | `Open attached container configuration file`. Copy paste content of devcontainer.json and save. Close the vscode window and reattach.
